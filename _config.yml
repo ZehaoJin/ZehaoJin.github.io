@@ -18,16 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Zehao Jin 金泽灏
+email: zj448@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Physics PhD student @NYUAD. Astrophysics, machine learning, galaxy, black hole, simulation,
+  causal inference, symbolic regression, and more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://zehaojin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  zehaojin
+#google_scholar_url: https://scholar.google.com/citations?user=iBYSynwAAAAJ&hl=en
+#orcid_url: https://orcid.org/0009-0000-2506-6645
+#arxiv_url: https://arxiv.org/search/astro-ph?searchtype=author&query=Jin,+Z
+#NASA_ADS_url: https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22Jin%2C%20Zehao%22&sort=date%20desc%2C%20bibcode%20desc
+
+
 
 # Build settings
 theme: minima
