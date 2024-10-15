@@ -7,7 +7,7 @@ permalink: /publications/
 ## Automated list
 - [ORCID ID](https://orcid.org/0009-0000-2506-6645)
 - [Google Scholar](https://scholar.google.com/citations?user=iBYSynwAAAAJ&hl=en)
-- [ADS](https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22Jin%2C%20Zehao%22&sort=date%20desc%2C%20bibcode%20desc)
+- [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0000-2506-6645&sort=date+desc)
 - [ArXiv](https://arxiv.org/search/astro-ph?searchtype=author&query=Jin,+Z)
 
 
