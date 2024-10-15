@@ -8,7 +8,7 @@ permalink: /publications/
 - [ORCID ID](https://orcid.org/0009-0000-2506-6645)
 - [Google Scholar](https://scholar.google.com/citations?user=iBYSynwAAAAJ&hl=en)
 - [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0000-2506-6645&sort=date+desc)
-- [ArXiv](https://arxiv.org/search/astro-ph?searchtype=author&query=Jin,+Z)
+- [ArXiv](http://arxiv.org/a/jin_z_1)
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
