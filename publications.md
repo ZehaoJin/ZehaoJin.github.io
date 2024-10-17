@@ -12,6 +12,14 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+- [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis]()\
+    **Z Jin**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh\
+    *NeurlPS 2024 CRL*
+
+- [Evaluating Sparse Galaxy Simulations via Out-of-Distribution Detection and Amortized Bayesian Model Comparison](https://arxiv.org/abs/2410.10606)\
+    L Zhou, ST Radev, WH Oliver, A Obreja, **Z Jin**, T Buck\
+    *NeurlPS 2024 ML4PS*
+
 - [A Data-driven Discovery of the Causal Connection between Galaxy and Black Hole Evolution](https://arxiv.org/abs/2410.00965)\
     **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, ...\
     *Submitted to The Astrophysical Journal*
