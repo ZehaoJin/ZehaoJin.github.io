@@ -54,7 +54,9 @@ permalink: /publications/
 
 
 ## Conferences, Workshops, and talks
-
+- Ciela Institute, Université de Montréal\
+    Montréal, Canada - Feb-Mar 2024 - Visiting Student
+    
 - NeurIPS 2023, ML4PS\
     New Orleans, USA - Dec 2023 - Poster presentation
 
