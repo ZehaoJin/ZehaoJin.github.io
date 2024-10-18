@@ -21,19 +21,19 @@ permalink: /publications/
     *NeurlPS 2024 ML4PS*
 
 - [A Data-driven Discovery of the Causal Connection between Galaxy and Black Hole Evolution](https://arxiv.org/abs/2410.00965)\
-    **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, ...\
+    **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
     *Submitted to The Astrophysical Journal*
 
 - [HELLO project: high-z evolution of large and luminous objects](https://academic.oup.com/mnras/article/533/2/1463/7730267)\
-    S Waterval, AV Macciò, T Buck, A Obreja, C Cho, **Z Jin**, BL Davis, ...\
+    S Waterval, AV Macciò, T Buck, A Obreja, C Cho, **Z Jin**, BL Davis, KL Dixon, X Kang\
     *Monthly Notices of the Royal Astronomical Society*
 
 - [Identification of Intermediate-mass Black Hole Candidates among a Sample of Sd Galaxies](https://iopscience.iop.org/article/10.3847/1538-4357/ad55eb)\
-    BL Davis, AW Graham, R Soria, **Z Jin**, ID Karachentsev, ...\
+    BL Davis, AW Graham, R Soria, **Z Jin**, ID Karachentsev, VE Karachentseva, E D'Onghia\
     *The Astrophysical Journal*
 
 - [Quantitatively rating galaxy simulations against real observations with anomaly detection](https://academic.oup.com/mnras/article/529/4/3536/7612260)\
-    **Z Jin**, AV Macció, N Faucher, M Pasquato, T Buck, KL Dixon, N Arora, ...\
+    **Z Jin**, AV Macciò, N Faucher, M Pasquato, T Buck, KL Dixon, N Arora, M Blank, P Vulanovic\
     *Monthly Notices of the Royal Astronomical Society*
 
 - [Causa prima: cosmology meets causal discovery for the first time](https://arxiv.org/abs/2311.15160)\
