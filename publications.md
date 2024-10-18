@@ -11,7 +11,7 @@ permalink: /publications/
 - [ArXiv](http://arxiv.org/a/jin_z_1)
 
 
-## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+## Maintained list (updated {{ site.github.build_revision | date: '%Y-%m-%d' }})
 - [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis]()\
     **Z Jin**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh\
     *NeurlPS 2024 CRL*
