@@ -12,7 +12,7 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
-- [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis]()\
+- [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis](https://arxiv.org/abs/2410.14775)\
     **Z Jin**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh\
     *NeurlPS 2024 CRL*
 
