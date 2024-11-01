@@ -15,7 +15,13 @@
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      macros: {
+        // Define the independence symbol
+        indep: '{\\perp\\!\\!\\!\\perp}',
+        // Define the dependence symbol
+        dep: '{\\not\\!\\perp\\!\\!\\!\\perp}'
+      }
     }
   };
 </script>
