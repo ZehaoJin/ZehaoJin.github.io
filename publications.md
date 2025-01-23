@@ -12,41 +12,41 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+- [Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution](https://arxiv.org/abs/2410.00965)\
+    **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
+    *Accepted by The Astrophysical Journal*
+
 - [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis](https://arxiv.org/abs/2410.14775)\
     **Z Jin**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh\
     *NeurlPS 2024 CRL*
-
-- [Evaluating Sparse Galaxy Simulations via Out-of-Distribution Detection and Amortized Bayesian Model Comparison](https://arxiv.org/abs/2410.10606)\
-    L Zhou, ST Radev, WH Oliver, A Obreja, **Z Jin**, T Buck\
-    *NeurlPS 2024 ML4PS*
-
-- [A Data-driven Discovery of the Causal Connection between Galaxy and Black Hole Evolution](https://arxiv.org/abs/2410.00965)\
-    **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
-    *Submitted to The Astrophysical Journal*
-
-- [HELLO project: high-z evolution of large and luminous objects](https://academic.oup.com/mnras/article/533/2/1463/7730267)\
-    S Waterval, AV Macciò, T Buck, A Obreja, C Cho, **Z Jin**, BL Davis, KL Dixon, X Kang\
-    *Monthly Notices of the Royal Astronomical Society*
-
-- [Identification of Intermediate-mass Black Hole Candidates among a Sample of Sd Galaxies](https://iopscience.iop.org/article/10.3847/1538-4357/ad55eb)\
-    BL Davis, AW Graham, R Soria, **Z Jin**, ID Karachentsev, VE Karachentseva, E D'Onghia\
-    *The Astrophysical Journal*
 
 - [Quantitatively rating galaxy simulations against real observations with anomaly detection](https://academic.oup.com/mnras/article/529/4/3536/7612260)\
     **Z Jin**, AV Macciò, N Faucher, M Pasquato, T Buck, KL Dixon, N Arora, M Blank, P Vulanovic\
     *Monthly Notices of the Royal Astronomical Society*
 
-- [Causa prima: cosmology meets causal discovery for the first time](https://arxiv.org/abs/2311.15160)\
-    M Pasquato, **Z Jin**, P Lemos, BL Davis, AV Macciò\
-    *NeurlPS 2023 ML4PS*
-
 - [Discovering Black Hole Mass Scaling Relations with Symbolic Regression](https://arxiv.org/abs/2310.19406)\
   **Z Jin**, BL Davis\
   *NeurlPS 2023 ML4PS*
 
+- [Causa prima: cosmology meets causal discovery for the first time](https://arxiv.org/abs/2311.15160)\
+    M Pasquato, **Z Jin**, P Lemos, BL Davis, AV Macciò\
+    *NeurlPS 2023 ML4PS*
+
 - [Discovery of a Planar Black Hole Mass Scaling Relation for Spiral Galaxies](https://iopscience.iop.org/article/10.3847/2041-8213/acfa98)\
     BL Davis, **Z Jin**\
     *The Astrophysical Journal Letters*
+
+- [Identification of Intermediate-mass Black Hole Candidates among a Sample of Sd Galaxies](https://iopscience.iop.org/article/10.3847/1538-4357/ad55eb)\
+    BL Davis, AW Graham, R Soria, **Z Jin**, ID Karachentsev, VE Karachentseva, E D'Onghia\
+    *The Astrophysical Journal*
+
+- [Evaluating Sparse Galaxy Simulations via Out-of-Distribution Detection and Amortized Bayesian Model Comparison](https://arxiv.org/abs/2410.10606)\
+    L Zhou, ST Radev, WH Oliver, A Obreja, **Z Jin**, T Buck\
+    *NeurlPS 2024 ML4PS*
+
+- [HELLO project: high-z evolution of large and luminous objects](https://academic.oup.com/mnras/article/533/2/1463/7730267)\
+    S Waterval, AV Macciò, T Buck, A Obreja, C Cho, **Z Jin**, BL Davis, KL Dixon, X Kang\
+    *Monthly Notices of the Royal Astronomical Society*
 
 - [Learning Principle of Least Action with Reinforcement Learning](https://arxiv.org/abs/2011.11891)\
     **Z Jin**, JYY Lin, SF Li\
@@ -54,6 +54,12 @@ permalink: /publications/
 
 
 ## Conferences, Workshops, and talks
+- 245th meeting of the American Astronomical Society\
+    Washington D.C., USA - Jan 2025 - Dissertation talk
+
+-  NeurIPS 2024, Causal Representation Learning Workshop\
+    Vancouver, Canada - Dec 2024 - Poster presentation
+
 - Ciela Institute, Université de Montréal\
     Montréal, Canada - Feb-Mar 2024 - Visiting Student
     
@@ -77,9 +83,3 @@ permalink: /publications/
 
 - AAAI-MLPS 2021\
     Remote - Mar 2021 - Contributed talk
-
-
-
-
-
-
