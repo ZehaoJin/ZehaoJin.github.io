@@ -12,9 +12,9 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
-- [Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution](https://arxiv.org/abs/2410.00965)\
+- [Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution](https://doi.org/10.3847/1538-4357/ad9ded)\
     **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
-    *Accepted by The Astrophysical Journal*
+    *The Astrophysical Journal*
 
 - [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis](https://arxiv.org/abs/2410.14775)\
     **Z Jin**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh\
