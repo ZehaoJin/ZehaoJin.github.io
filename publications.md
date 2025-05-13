@@ -12,6 +12,10 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+- [ZTF IC 10 Variable Catalog](https://doi.org/10.3847/1538-4365/adc7fe)\
+    **Z Jin**, J Gelfand\
+    *The Astronomical Journal Supplement Series*
+    
 - [Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution](https://doi.org/10.3847/1538-4357/ad9ded)\
     **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
     *The Astrophysical Journal*

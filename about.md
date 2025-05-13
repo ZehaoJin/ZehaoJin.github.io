@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-I am in my last year of Ph.D. in Physics at New York University Abu Dhabi (NYUAD), where I work on *astrophysics*, *machine learning*, and *causality*. 
+I work on *astrophysics*, *machine learning*, and *causality*. I got my Ph.D. in Physics at New York University Abu Dhabi (NYUAD) in 2025. My next step is a postdoc fellowship at Center for Astronomy and Astrophysics (CfAA), Fudan University, Shanghai, China.
 
 I work on a wide range of topics, from stars to galaxies, in terms of both real observations and simulations, with tools ranging from traditional statistical methods to causal discovery, symbolic regression, and neural networks. See more about my research [here](/research/).
 
