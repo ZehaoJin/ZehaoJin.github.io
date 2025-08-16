@@ -12,12 +12,27 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+- [Causal evidence for the primordiality of colours in trans-Neptunian objects](https://doi.org/10.1093/mnrasl/slaf089)\
+    BL Davis\*, M Ali-Dib\*, Y Zheng\*, **Z Jin**\*, K Zhang, AV Macciò\
+    \*equal contribution, listed alphabetically\
+    *Monthly Notices of the Royal Astronomical Society Letters*\
+    [*ICML 2025 ML4Astro* version](https://arxiv.org/abs/2507.03760)
+
+- [Causal Discovery of Latent Variables in Galactic Archaeology](https://arxiv.org/abs/2507.00134)\
+    **Z Jin**\*, Y Lu\*, YS Ting, Y Zheng, T Buck\
+    \*equal contribution\
+    *ICML 2025 ML4Astro*
+
+- [Bridging Simulations and Observations: New Insights into Galaxy Formation Simulations via Out-of-Distribution Detection and Bayesian Model Comparison](https://doi.org/10.1051/0004-6361/202453399)\
+    L Zhou, ST Radev, WH Oliver, A Obreja, **Z Jin**, T Buck\
+    *Astronomy & Astrophysics*
+
 - [ZTF IC 10 Variable Catalog](https://doi.org/10.3847/1538-4365/adc7fe)\
     **Z Jin**, J Gelfand\
     *The Astronomical Journal Supplement Series*
     
 - [Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution](https://doi.org/10.3847/1538-4357/ad9ded)\
-    **Z Jin**, M Pasquato, BL Davis, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
+    **Z Jin**, M Pasquato\*, BL Davis\*, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Maccio, Y Hezaveh\
     *The Astrophysical Journal*
 
 - [Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis](https://arxiv.org/abs/2410.14775)\

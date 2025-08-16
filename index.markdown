@@ -14,3 +14,5 @@ I study *Astrophysics*, [*Causality*](/intro_to_causality/), and *Machine Learni
 
 <img src="/assets/images/welcome1.png" width="225" height="300" />
 <img src="/assets/images/welcome0.png" width="350" height="200" /> 
+
+<img src="/assets/images/FCI_steps.jpg" />
