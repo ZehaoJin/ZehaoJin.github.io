@@ -12,6 +12,11 @@ permalink: /publications/
 
 
 ## Maintained list (updated {{ site.time | date: '%Y-%m-%d' }})
+- [Causal Reversal in the $M_\bullet$–$\sigma_0$ Relation: Implications for High-redshift Supermassive Black Hole Mass Estimates](https://iopscience.iop.org/article/10.3847/1538-4357/ae47ef/meta)\
+    BL Davis, S More, **Z Jin**\*, M Pasquato, AV Macciò, F Yuan\
+    \*corresponding author, student advisor\
+    *The Astrophysical Journal*
+
 - [Causal evidence for the primordiality of colours in trans-Neptunian objects](https://doi.org/10.1093/mnrasl/slaf089)\
     BL Davis\*, M Ali-Dib\*, Y Zheng\*, **Z Jin**\*, K Zhang, AV Macciò\
     \*equal contribution, listed alphabetically\
