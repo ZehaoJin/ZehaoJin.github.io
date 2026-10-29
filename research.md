@@ -27,7 +27,7 @@ One of my recent work tries to solve the long-standing debate about the causal i
     <em style="color: grey;">Example causal relationship identified in real spiral galaxy data shown in a directed acyclic graph (DAG).</em>
 </p>
 
-The causal discovery is carried out in a Bayesian way, where we calculate exact posterior probabilities of every possible DAG given the data, $P(G \mid D)$. This enables us to give the probability of any causal relationship between variables of interest. We find distinct causal relationships for elliptical, lenticular, and spiral galaxies. [Submitted to ApJ](https://arxiv.org/abs/2410.00965)
+The causal discovery is carried out in a Bayesian way, where we calculate exact posterior probabilities of every possible DAG given the data, $P(G \mid D)$. This enables us to give the probability of any causal relationship between variables of interest. We find distinct causal relationships for elliptical, lenticular, and spiral galaxies. [Published in ApJ](https://doi.org/10.3847/1538-4357/ad9ded)
 
 <p align="center">
     <img src="/assets/images/exact_edge_mar.png" width="750" height="250" />
@@ -36,6 +36,13 @@ The causal discovery is carried out in a Bayesian way, where we calculate exact 
   Edge marginals give the probability of Parent $\rightarrow$ Child through directed edges summed over all DAGs and their probabilities. E.g. in E galaxies the chance of $\sigma_0 \rightarrow M_\bullet$ is 78%. </em>
 </p>
 
+
+Also check out how I use causality to explore:
+
+- [How the causal direction in the $M_\bullet$–$\sigma_0$ relation changes](https://doi.org/10.3847/1538-4357/ae47ef)
+- [How to infer the birthplaces of stars in the Milky Way](https://arxiv.org/abs/2507.00134)
+- [What determines the colour of trans-Neptunian objects](https://doi.org/10.1093/mnrasl/slaf089)
+- [Why hot Jupiters are inflated](https://doi.org/10.3847/1538-3881/ae9bab)
 
 ### *Symbolic Regression*
 Symbolic regression is a machine learning technique that aims to find a mathematical expression that best fits the data. Based on Occam's razor, which states that the simplest model that fits the data is the best model, SR finds a pareto front that best optimizes the trade-off between model complexity and accuracy.

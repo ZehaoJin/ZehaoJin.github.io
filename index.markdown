@@ -16,3 +16,5 @@ I study *Astrophysics*, [*Causality*](/intro_to_causality/), and *Machine Learni
 <img src="/assets/images/welcome0.png" width="350" height="200" /> 
 
 <img src="/assets/images/FCI_steps.jpg" />
+
+<img src="/assets/images/galactic_archaeology.png" alt="Latent causal structure in galactic archaeology, showing birth radius, guiding radius, and observable stellar properties." />
