@@ -1,0 +1,39 @@
+.collaboration-network {box-sizing:border-box;position:relative;left:50%;transform:translateX(-50%);width:min(1140px,calc(100vw - 48px));margin:36px 0 40px;padding:30px 28px 22px;background:linear-gradient(135deg,#fbfaf7,#f3f7fb);border:1px solid #dce5ec;border-radius:10px;color:#243b53;}
+.collaboration-eyebrow {font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#586d80;margin:0 0 10px;}
+.collaboration-network h2 {font:normal 30px/1.25 Georgia,'Times New Roman',serif;letter-spacing:-.5px;margin:0 0 14px;}
+.collaboration-intro {font-size:15px;line-height:1.6;margin-bottom:18px;}
+.collaboration-toolbar {display:flex;align-items:end;gap:14px;justify-content:space-between;margin-bottom:18px;}
+.collaboration-toolbar label {display:block;font-size:13px;color:#405d74;margin-bottom:5px;}
+.collaboration-toolbar select {font:inherit;font-size:14px;min-width:260px;max-width:100%;color:#243b53;background:#fff;border:1px solid #b9ccdb;border-radius:5px;padding:8px 30px 8px 10px;}
+.collaboration-toolbar button {font:inherit;font-size:13px;padding:8px 12px;border:1px solid #b9ccdb;border-radius:5px;color:#285d83;background:#f5f8fb;cursor:pointer;}
+.collaboration-toolbar button:disabled {opacity:.55;cursor:default;}
+.collaboration-toolbar :focus-visible {outline:2px solid #285d83;outline-offset:3px;}
+.collaboration-legend {display:flex;gap:12px 24px;flex-wrap:wrap;font-size:13px;color:#526a7d;}
+.collaboration-legend span {display:inline-flex;align-items:center;gap:7px;}
+.collaboration-dot {display:inline-block;width:12px;height:12px;border-radius:50%;border:1px solid #285d8340;}
+.collaboration-dot.self {background:#bd8c49;}.collaboration-dot.frequent {background:#32729a;}.collaboration-dot.regular {background:#78a2bd;}.collaboration-dot.occasional {background:#c5d9e5;}
+.collaboration-summary {font-size:13px;color:#526a7d;margin:14px 0 0;min-height:20px;}
+.collaboration-hover {font-size:13px;color:#526a7d;margin:3px 0 0;min-height:20px;}
+.collaboration-scroll {overflow-x:auto;scrollbar-width:thin;margin:0 -10px 14px;padding:0 10px;}
+.collaboration-scroll svg {display:block;width:100%;min-width:950px;height:auto;}
+.collaboration-edge {stroke:#86a6bd;stroke-opacity:.2;fill:none;}
+.collaboration-edge.is-active {stroke:#8a6636;stroke-opacity:.7;}
+.collaboration-edge.is-muted {stroke-opacity:.035;}
+.collaboration-node {cursor:pointer;outline:none;}
+.collaboration-hit {fill:transparent;stroke:none;}
+.collaboration-node circle {stroke:#fff;stroke-width:2;}
+.collaboration-node text {font-family:inherit;font-size:14px;fill:#29465c;text-anchor:middle;paint-order:stroke;stroke:#f8fafb;stroke-width:5px;stroke-linejoin:round;pointer-events:none;}
+.collaboration-node.is-self text {font-weight:700;font-size:16px;fill:#775521;}
+.collaboration-node.is-active circle {stroke:#946b34;stroke-width:3;}
+.collaboration-node.is-active text {font-weight:600;}
+.collaboration-node.is-muted {opacity:.18;}
+.collaboration-node:focus-visible circle {stroke:#173e5c;stroke-width:4;}
+.collaboration-detail {background:#fff;border:1px solid #d7e2eb;border-left:3px solid #85a9c3;border-radius:5px;padding:16px 18px;min-height:60px;}
+.collaboration-detail h3 {font-size:18px;font-weight:500;margin:0 0 5px;}
+.collaboration-detail p {font-size:14px;margin:0;color:#526a7d;}
+.collaboration-paper-list {max-height:260px;overflow:auto;margin:14px 0 0 20px;padding-right:8px;}
+.collaboration-paper-list li {font-size:14px;line-height:1.5;margin:0 0 12px;}
+.collaboration-paper-list span {display:block;font-size:12px;color:#586d80;}
+.collaboration-note {font-size:13px;color:#586d80;line-height:1.6;margin:14px 0 0;}
+@media(max-width:600px) {.collaboration-network {width:calc(100vw - 28px);padding:22px 16px 18px;}.collaboration-network h2 {font-size:26px;}.collaboration-toolbar {align-items:stretch;flex-direction:column;}.collaboration-toolbar select {width:100%;min-width:0;}.collaboration-toolbar button {align-self:flex-start;}.collaboration-legend {gap:10px 15px;}}
+@media print {.collaboration-toolbar {display:none;}.collaboration-network {left:auto;transform:none;width:100%;padding:10px;}.collaboration-scroll {overflow:visible;}.collaboration-scroll svg {min-width:0;}.collaboration-paper-list {max-height:none;overflow:visible;}}

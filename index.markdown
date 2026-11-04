@@ -5,12 +5,18 @@
 layout: home
 title: "Home"
 permalink: /
+research_ui: true
+collaboration_ui: true
 ---
 
 
 Welcome to the personal website of **Zehao Jin (金泽灏)**. 
 
 I study *Astrophysics*, [*Causality*](/intro_to_causality/), and *Machine Learning*. 
+
+{% include research-atlas.html %}
+
+{% include collaboration-network.html %}
 
 <img src="/assets/images/welcome1.png" width="225" height="300" />
 <img src="/assets/images/welcome0.png" width="350" height="200" /> 

@@ -1,0 +1,11 @@
+<section class="research-atlas" aria-labelledby="atlas-heading">
+  <p class="atlas-eyebrow">A constellation of questions</p>
+  <h2 id="atlas-heading">{{ site.data.research.slogan }}</h2>
+  <p class="atlas-intro">Hover or focus a star to trace a paper; lines connect appearances of that same paper. Click to read it. On touch screens, tap once for details.</p>
+  <div class="atlas-key"><span><span class="key-star">✦</span> A paper</span><span><span class="key-star key-highlight">✦</span> A highlighted paper</span><span id="atlas-total"></span></div>
+  <div id="research-map" class="atlas-scroll" tabindex="0" role="region" aria-label="Research constellation; scroll horizontally on small screens"></div>
+  <div id="paper-detail" class="paper-detail" aria-live="polite" aria-atomic="true"><p class="detail-placeholder">Choose a star to discover the question behind it.</p></div>
+  <p class="atlas-footer"><a href="{{ '/publications/' | relative_url }}">Explore the full publication list and filter by tags →</a></p>
+  <noscript><p>The interactive constellation needs JavaScript. You can read every paper and its tags on the <a href="{{ '/publications/' | relative_url }}">publication page</a>.</p></noscript>
+</section>
+<script id="research-data" type="application/json">{{ site.data.research | jsonify }}</script>

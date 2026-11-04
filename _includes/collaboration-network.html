@@ -1,0 +1,16 @@
+<section class="collaboration-network" aria-labelledby="collaboration-heading">
+  <p class="collaboration-eyebrow">People behind the papers</p>
+  <h2 id="collaboration-heading">Collaboration Network</h2>
+  <p class="collaboration-intro">Hover over a name to trace connections. Select a collaborator to explore our shared papers. Affiliations are according to shared papers.</p>
+  <div class="collaboration-toolbar" hidden>
+    <div><label for="collaborator-select">Find a collaborator</label><select id="collaborator-select"><option value="">All collaborators</option></select></div>
+    <button id="collaboration-clear" type="button">Show all connections</button>
+  </div>
+  <div class="collaboration-legend"><span><i class="collaboration-dot self"></i> Zehao Jin (me)</span><span><i class="collaboration-dot frequent"></i> 5+ shared papers</span><span><i class="collaboration-dot regular"></i> 2–4 shared papers</span><span><i class="collaboration-dot occasional"></i> 1 shared paper</span></div>
+  <p id="collaboration-summary" class="collaboration-summary"></p>
+  <p id="collaboration-hover" class="collaboration-hover" aria-live="polite" aria-atomic="true"></p>
+  <div id="collaboration-map" class="collaboration-scroll" role="region" aria-label="Collaboration network with full-name labels" tabindex="0"></div>
+  <div id="collaboration-detail" class="collaboration-detail" aria-live="polite" aria-atomic="true"><p>Select a name to see our shared publications.</p></div>
+  <p class="collaboration-note">Larger nodes indicate more papers with me. Lines connect coauthors on the published papers listed here; thicker lines indicate more shared papers.</p>
+  <noscript><p>Enable JavaScript to explore the network, or read the coauthor lists on the <a href="{{ '/publications/' | relative_url }}">publication page</a>.</p></noscript>
+</section>

@@ -1,0 +1,35 @@
+{% capture publication_markup %}<div id="research-publications">
+  <p>★ Highlighted paper; * equal contribution; † corresponding author.</p>
+  <div id="publication-filters" class="publication-filters" hidden>
+    <p class="filter-heading">Explore by tag <button type="button" id="clear-filters">Clear filters</button></p>
+    <p class="filter-help">Select any combination. Papers must match <strong>all selected tags</strong>. First author includes co-first authorship.</p>
+    {% assign group_ids = 'scales,approaches,roles' | split: ',' %}
+    {% for group_id in group_ids %}
+    <fieldset><legend>{% case group_id %}{% when 'scales' %}Scales{% when 'approaches' %}Approaches{% else %}Authorship &amp; highlights{% endcase %}</legend>
+      {% for tag in site.data.research[group_id] %}<button class="research-tag" type="button" data-filter="{{ tag.id }}" aria-pressed="false">{{ tag.label }}</button>{% endfor %}
+    </fieldset>
+    {% endfor %}
+    <p id="publication-count" role="status" aria-live="polite"></p>
+  </div>
+  {% for category in site.data.research.categories %}
+  <section class="publication-category" data-category="{{ category.id }}" aria-labelledby="category-{{ category.id }}">
+    <h3 id="category-{{ category.id }}">{{ category.label }}</h3>
+    <ul class="publication-list">
+      {% for paper in site.data.research.papers %}{% if paper.category == category.id %}
+      <li data-paper="{{ paper.id }}">
+        <!-- Sort date: {{ paper.dateNote }} -->
+        <div class="publication-title">{% if paper.url %}<a href="{{ paper.url }}">{% endif %}{% if paper.roles contains 'highlighted' %}★ {% endif %}{{ paper.titleMarkdown }}{% if paper.url %}</a>{% endif %}</div>
+        <div class="publication-authors">{{ paper.authorsMarkdown | markdownify }}</div>
+        <div class="publication-citation"><em>{{ paper.citation }}</em></div>
+        <div class="paper-tags" aria-label="Paper tags">
+          {% assign paper_tags = paper.scales | concat: paper.approaches | concat: paper.roles %}
+          {% for group_id in group_ids %}{% for tag in site.data.research[group_id] %}{% if paper_tags contains tag.id %}<button class="research-tag" type="button" data-filter="{{ tag.id }}" aria-pressed="false" disabled>{{ tag.label }}</button>{% endif %}{% endfor %}{% endfor %}
+        </div>
+      </li>
+      {% endif %}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  <p id="no-publications" hidden>No papers match this combination. Remove a tag or clear the filters to explore again.</p>
+</div>
+<script id="research-data" type="application/json">{{ site.data.research | jsonify }}</script>{% endcapture %}{{ publication_markup | strip_newlines }}

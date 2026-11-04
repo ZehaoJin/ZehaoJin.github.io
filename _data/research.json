@@ -1,0 +1,2770 @@
+{
+  "slogan": "My winding paths through the scales of the cosmos",
+  "scales": [
+    {
+      "id": "planets",
+      "label": "Planets"
+    },
+    {
+      "id": "stars",
+      "label": "Stars"
+    },
+    {
+      "id": "galaxies-smbhs",
+      "label": "Galaxies & SMBHs"
+    },
+    {
+      "id": "cosmology",
+      "label": "Cosmology"
+    },
+    {
+      "id": "general-physics",
+      "label": "General physics"
+    }
+  ],
+  "approaches": [
+    {
+      "id": "observational-data",
+      "label": "Observational data"
+    },
+    {
+      "id": "numerical-simulation",
+      "label": "Numerical simulation"
+    },
+    {
+      "id": "causal-discovery",
+      "label": "Causal discovery"
+    },
+    {
+      "id": "representation-learning",
+      "label": "Representation learning"
+    },
+    {
+      "id": "symbolic-regression",
+      "label": "Symbolic regression"
+    },
+    {
+      "id": "deep-learning",
+      "label": "Deep learning"
+    },
+    {
+      "id": "reinforcement-learning",
+      "label": "Reinforcement learning"
+    }
+  ],
+  "roles": [
+    {
+      "id": "first-author",
+      "label": "First / co-first author"
+    },
+    {
+      "id": "corresponding-author",
+      "label": "Corresponding author"
+    },
+    {
+      "id": "highlighted",
+      "label": "★ Highlighted"
+    },
+    {
+      "id": "submitted",
+      "label": "Submitted"
+    }
+  ],
+  "categories": [
+    {
+      "id": "journal",
+      "label": "Journal Articles"
+    },
+    {
+      "id": "workshop",
+      "label": "Machine Learning Conference and Workshop Papers"
+    },
+    {
+      "id": "submitted",
+      "label": "Submitted Manuscript"
+    }
+  ],
+  "policy": {
+    "denominator": "Published journal and conference/workshop entries; submitted manuscripts excluded.",
+    "numericalSimulation": "Includes analysis of existing simulation outputs, as confirmed by the author.",
+    "observationalData": "Includes quantitative comparison with observational measurements, including HELLO.",
+    "representationLearning": "Includes learned latent representations, including ICA and galactic archaeology.",
+    "generalPhysics": "Cross-scale category, not a larger physical size than cosmology.",
+    "leastAction": "Tabular Q-learning is tagged reinforcement learning, as requested by the author. Numerical simulation describes its numerical light-propagation environment; it does not use deep learning.",
+    "roles": "Author markers and highlights copied from the approved base CV. Submitted corresponding author unknown.",
+    "ordering": "Original category order and exact date audit preserved.",
+    "authorNames": "Full given names and family names verified against primary bylines. Published middle initials retained where not expanded by a verified source; no guessed expansion. Accents retained. Yuxi (Lucy) Lu follows the galactic-archaeology byline; formatting normalized with a space before the parenthesis.",
+    "chineseNames": "Use user-confirmed spellings or Chinese characters explicitly published by the same researcher or a primary institutional/event source. Do not infer ethnicity or transliterate names. Preserve the verified script, including traditional characters.",
+    "institutions": {
+      "scope": "Affiliations printed on the 15 published papers, not current affiliations; submitted manuscripts excluded. Confirmed by the author on 2026-11-05.",
+      "count": "Unique institution IDs across every published author-paper affiliation. Multiple affiliations are included; repeated institutions across authors and papers count once.",
+      "normalization": "Departments and subordinate centers count under their university or institute. NYU Abu Dhabi and NYU New York count once as New York University. Heidelberg IWR/ITA and NYU CASS/CAP3 are merged with their universities.",
+      "institutes": "Named research institutes remain separate, including Ciela, Mila, Flatiron, MPIA, IASF-Milano, INAF Torino, INFN Padova, and individual national-academy observatories. A shared national umbrella alone does not merge institutes.",
+      "cifar": "CIFAR AI Chair and CIFAR Senior Fellow byline affiliations count as one CIFAR organizational affiliation, not two institutions or a claim of a physical workplace.",
+      "provenance": "Original affiliation strings, author-to-affiliation labels, and primary-source URLs are retained per paper in affiliationAudit."
+    }
+  },
+  "papers": [
+    {
+      "id": "hot-jupiters",
+      "title": "Causes of Hot Jupiter Inflation from Causal Discovery",
+      "titleMarkdown": "Causes of Hot Jupiter Inflation from Causal Discovery",
+      "authorsMarkdown": "**Z Jin†**, M Ali-Dib, Y Zheng, M Pasquato, BL Davis, AV Macciò",
+      "citation": "The Astronomical Journal 172, 208 (2026)",
+      "year": 2026,
+      "venue": "The Astronomical Journal",
+      "url": "https://doi.org/10.3847/1538-3881/ae9bab",
+      "status": "published",
+      "category": "journal",
+      "date": "2026-09-15",
+      "dateNote": "2026-09-15; publisher first-online publication.",
+      "scales": [
+        "planets"
+      ],
+      "approaches": [
+        "observational-data",
+        "causal-discovery"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author",
+        "highlighted"
+      ],
+      "evidence": [
+        "https://doi.org/10.3847/1538-3881/ae9bab"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "mohamad-ali-dib",
+        "yujia-zheng",
+        "mario-pasquato",
+        "benjamin-l-davis",
+        "andrea-valerio-maccio"
+      ],
+      "authorSource": "https://arxiv.org/abs/2608.16988",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "fudan",
+          "nyu"
+        ],
+        "mohamad-ali-dib": [
+          "nyu"
+        ],
+        "yujia-zheng": [
+          "cmu"
+        ],
+        "mario-pasquato": [
+          "ciela",
+          "iasf-milano"
+        ],
+        "benjamin-l-davis": [
+          "missouri-state",
+          "nyu"
+        ],
+        "andrea-valerio-maccio": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2608.16988",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astronomy and Astrophysics and Department of Physics, Fudan University, Shanghai 200438, People’s Republic of China",
+            "institutionIds": [
+              "fudan"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Carnegie Mellon University, PA, USA",
+            "institutionIds": [
+              "cmu"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "INAF IASF-Milano, Via Alfonso Corti 12, 20133 Milano, Italy",
+            "institutionIds": [
+              "iasf-milano"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Ciela, Computation and Astrophysical Data Analysis Institute, Montreal, Quebec, Canada",
+            "institutionIds": [
+              "ciela"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Department of Physics, Astronomy, & Materials Science, Missouri State University, Springfield, MO 65897, USA",
+            "institutionIds": [
+              "missouri-state"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1",
+            "2"
+          ],
+          "mohamad-ali-dib": [
+            "1"
+          ],
+          "yujia-zheng": [
+            "3"
+          ],
+          "mario-pasquato": [
+            "4",
+            "5"
+          ],
+          "benjamin-l-davis": [
+            "1",
+            "6"
+          ],
+          "andrea-valerio-maccio": [
+            "1"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "causal-reversal",
+      "title": "Causal Reversal in the M•–σ₀ Relation: Implications for High-redshift Supermassive Black Hole Mass Estimates",
+      "titleMarkdown": "Causal Reversal in the $M_\\bullet-\\sigma_0$ Relation: Implications for High-redshift Supermassive Black Hole Mass Estimates",
+      "authorsMarkdown": "BL Davis, S More, **Z Jin†**, M Pasquato, AV Macciò, F Yuan",
+      "citation": "The Astrophysical Journal 1000, 100 (2026)",
+      "year": 2026,
+      "venue": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ae47ef",
+      "status": "published",
+      "category": "journal",
+      "date": "2026-03-16",
+      "dateNote": "2026-03-16; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "numerical-simulation",
+        "causal-discovery"
+      ],
+      "roles": [
+        "corresponding-author",
+        "highlighted"
+      ],
+      "evidence": [
+        "https://bendavis007.github.io/PDFs/Causal_NIHAO.pdf"
+      ],
+      "authorIds": [
+        "benjamin-l-davis",
+        "saakshi-more",
+        "zehao-jin",
+        "mario-pasquato",
+        "andrea-valerio-maccio",
+        "feng-yuan"
+      ],
+      "authorSource": "https://arxiv.org/abs/2602.16775",
+      "authorInstitutionIds": {
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "saakshi-more": [
+          "nyu"
+        ],
+        "zehao-jin": [
+          "fudan",
+          "nyu"
+        ],
+        "mario-pasquato": [
+          "iasf-milano"
+        ],
+        "andrea-valerio-maccio": [
+          "nyu"
+        ],
+        "feng-yuan": [
+          "fudan"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2602.16775",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Saadiyat Island, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Center for Astronomy and Astrophysics and Department of Physics, Fudan University, Shanghai 200438, People’s Republic of China",
+            "institutionIds": [
+              "fudan"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Istituto Nazionale di Astrofisica, IASF-Milano Via Alfonso Corti 12, I-20133 Milano, Italy",
+            "institutionIds": [
+              "iasf-milano"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "benjamin-l-davis": [
+            "1",
+            "2"
+          ],
+          "saakshi-more": [
+            "1",
+            "2"
+          ],
+          "zehao-jin": [
+            "3",
+            "1",
+            "2"
+          ],
+          "mario-pasquato": [
+            "4"
+          ],
+          "andrea-valerio-maccio": [
+            "1",
+            "2"
+          ],
+          "feng-yuan": [
+            "3"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "bridging-simulations",
+      "title": "Bridging simulations and observations: New insights into galaxy formation simulations via out-of-distribution detection and Bayesian model comparison",
+      "titleMarkdown": "Bridging simulations and observations: New insights into galaxy formation simulations via out-of-distribution detection and Bayesian model comparison",
+      "authorsMarkdown": "L Zhou†, ST Radev, WH Oliver, A Obreja, **Z Jin**, T Buck",
+      "citation": "Astronomy & Astrophysics 701, A44 (2025)",
+      "year": 2025,
+      "venue": "Astronomy & Astrophysics",
+      "url": "https://doi.org/10.1051/0004-6361/202453399",
+      "status": "published",
+      "category": "journal",
+      "date": "2025-09-04",
+      "dateNote": "2025-09-04; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "numerical-simulation",
+        "representation-learning",
+        "deep-learning"
+      ],
+      "roles": [],
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361/202453399"
+      ],
+      "authorIds": [
+        "lingyi-zhou",
+        "stefan-t-radev",
+        "william-h-oliver",
+        "aura-obreja",
+        "zehao-jin",
+        "tobias-buck"
+      ],
+      "authorSource": "https://arxiv.org/abs/2410.10606",
+      "authorInstitutionIds": {
+        "lingyi-zhou": [
+          "heidelberg"
+        ],
+        "stefan-t-radev": [
+          "rensselaer"
+        ],
+        "william-h-oliver": [
+          "heidelberg"
+        ],
+        "aura-obreja": [
+          "heidelberg"
+        ],
+        "zehao-jin": [
+          "nyu"
+        ],
+        "tobias-buck": [
+          "heidelberg"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2410.10606v2",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Interdisciplinary Center for Scientific Computing (IWR), University of Heidelberg, Im Neuenheimer Feld 205, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Modeling, Simulation, & Imaging in Medicine, Rensselaer Polytechnic Institute, NY, USA",
+            "institutionIds": [
+              "rensselaer"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Universität Heidelberg, Zentrum für Astronomie, Institut für Theoretische Astrophysik, Albert-Ueberle-Straße 2, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi",
+            "institutionIds": [
+              "nyu"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "lingyi-zhou": [
+            "1"
+          ],
+          "stefan-t-radev": [
+            "2"
+          ],
+          "william-h-oliver": [
+            "1",
+            "3"
+          ],
+          "aura-obreja": [
+            "1",
+            "3"
+          ],
+          "zehao-jin": [
+            "4"
+          ],
+          "tobias-buck": [
+            "1",
+            "3"
+          ]
+        },
+        "notes": [
+          "Use v2, whose title matches the published A&A article; v1 has the earlier conference title. Heidelberg centers collapse to the same university."
+        ]
+      }
+    },
+    {
+      "id": "tno-colours",
+      "title": "Causal evidence for the primordiality of colours in trans-Neptunian objects",
+      "titleMarkdown": "Causal evidence for the primordiality of colours in trans-Neptunian objects",
+      "authorsMarkdown": "BL Davis\\*†, M Ali-Dib\\*, Y Zheng\\*, **Z Jin\\***, K Zhang, AV Macciò",
+      "citation": "Monthly Notices of the Royal Astronomical Society Letters 543, L34-L42 (2025)",
+      "year": 2025,
+      "venue": "MNRAS Letters",
+      "url": "https://doi.org/10.1093/mnrasl/slaf089",
+      "status": "published",
+      "category": "journal",
+      "date": "2025-08-14",
+      "dateNote": "2025-08-14; publisher first-online publication.",
+      "scales": [
+        "planets"
+      ],
+      "approaches": [
+        "observational-data",
+        "causal-discovery"
+      ],
+      "roles": [
+        "first-author",
+        "highlighted"
+      ],
+      "evidence": [
+        "https://doi.org/10.1093/mnrasl/slaf089"
+      ],
+      "authorIds": [
+        "benjamin-l-davis",
+        "mohamad-ali-dib",
+        "yujia-zheng",
+        "zehao-jin",
+        "kun-zhang",
+        "andrea-valerio-maccio"
+      ],
+      "authorSource": "https://arxiv.org/abs/2508.10089",
+      "authorInstitutionIds": {
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "mohamad-ali-dib": [
+          "nyu"
+        ],
+        "yujia-zheng": [
+          "cmu"
+        ],
+        "zehao-jin": [
+          "fudan",
+          "nyu"
+        ],
+        "kun-zhang": [
+          "cmu",
+          "mbzuai"
+        ],
+        "andrea-valerio-maccio": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/pdf/2508.10089",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Carnegie Mellon University, Pittsburgh, PA, USA",
+            "institutionIds": [
+              "cmu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Center for Astronomy and Astrophysics and Department of Physics, Fudan University, Shanghai 200438, People’s Republic of China",
+            "institutionIds": [
+              "fudan"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE",
+            "institutionIds": [
+              "mbzuai"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "benjamin-l-davis": [
+            "1"
+          ],
+          "mohamad-ali-dib": [
+            "1"
+          ],
+          "yujia-zheng": [
+            "2"
+          ],
+          "zehao-jin": [
+            "1",
+            "3"
+          ],
+          "kun-zhang": [
+            "2",
+            "4"
+          ],
+          "andrea-valerio-maccio": [
+            "1"
+          ]
+        },
+        "notes": [
+          "PDF superscripts verified. arXiv HTML conversion incorrectly associates affiliations with authors: do not use its sequential author-affiliation presentation."
+        ]
+      }
+    },
+    {
+      "id": "ztf-ic10",
+      "title": "ZTF IC 10 Variable Catalog",
+      "titleMarkdown": "ZTF IC 10 Variable Catalog",
+      "authorsMarkdown": "**Z Jin†**, JD Gelfand",
+      "citation": "The Astrophysical Journal Supplement Series 278, 31 (2025)",
+      "year": 2025,
+      "venue": "The Astrophysical Journal Supplement Series",
+      "url": "https://doi.org/10.3847/1538-4365/adc7fe",
+      "status": "published",
+      "category": "journal",
+      "date": "2025-05-08",
+      "dateNote": "2025-05-08; publisher first-online publication.",
+      "scales": [
+        "stars"
+      ],
+      "approaches": [
+        "observational-data"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
+      "evidence": [
+        "https://arxiv.org/html/2504.08045v2"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "joseph-d-gelfand"
+      ],
+      "authorSource": "https://arxiv.org/abs/2504.08045",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "nyu"
+        ],
+        "joseph-d-gelfand": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2504.08045v2",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astrophysics and Space Science (CASS), NYU Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1"
+          ],
+          "joseph-d-gelfand": [
+            "2"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "bh-galaxy-causality",
+      "title": "Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution",
+      "titleMarkdown": "Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution",
+      "authorsMarkdown": "**Z Jin†**, M Pasquato\\*, BL Davis\\*, T Deleu, Y Luo, C Cho, P Lemos, L Perreault-Levasseur, Y Bengio, X Kang, AV Macciò, Y Hezaveh",
+      "citation": "The Astrophysical Journal 979, 212 (2025)",
+      "year": 2025,
+      "venue": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ad9ded",
+      "status": "published",
+      "category": "journal",
+      "date": "2025-01-28",
+      "dateNote": "2025-01-28; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "causal-discovery"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author",
+        "highlighted"
+      ],
+      "evidence": [
+        "https://doi.org/10.3847/1538-4357/ad9ded"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "mario-pasquato",
+        "benjamin-l-davis",
+        "tristan-deleu",
+        "yu-luo",
+        "changhyun-cho",
+        "pablo-lemos",
+        "laurence-perreault-levasseur",
+        "yoshua-bengio",
+        "xi-kang",
+        "andrea-valerio-maccio",
+        "yashar-hezaveh"
+      ],
+      "authorSource": "https://arxiv.org/html/2410.00965",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "ciela",
+          "nyu"
+        ],
+        "mario-pasquato": [
+          "ciela",
+          "iasf-milano",
+          "mila",
+          "montreal",
+          "padova"
+        ],
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "tristan-deleu": [
+          "mila",
+          "montreal"
+        ],
+        "yu-luo": [
+          "hunan-normal",
+          "purple-mountain"
+        ],
+        "changhyun-cho": [
+          "nyu"
+        ],
+        "pablo-lemos": [
+          "ciela",
+          "mila",
+          "montreal"
+        ],
+        "laurence-perreault-levasseur": [
+          "ciela",
+          "flatiron",
+          "mila",
+          "montreal"
+        ],
+        "yoshua-bengio": [
+          "cifar",
+          "mila",
+          "montreal"
+        ],
+        "xi-kang": [
+          "purple-mountain",
+          "zhejiang"
+        ],
+        "andrea-valerio-maccio": [
+          "mpia",
+          "nyu"
+        ],
+        "yashar-hezaveh": [
+          "ciela",
+          "flatiron",
+          "mila",
+          "montreal"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2410.00965v2",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "New York University Abu Dhabi, P.O. Box 129188, Abu Dhabi, United Arab Emirates",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, P.O. Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Montréal Institute for Astrophysical Data Analysis and Machine Learning (Ciela), Montréal, Canada",
+            "institutionIds": [
+              "ciela"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Montréal Institute for Learning Algorithms (Mila), Quebec Artificial Intelligence Institute, 6666 Rue Saint-Urbain, Montréal, Canada",
+            "institutionIds": [
+              "mila"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Département de Physique, Université de Montréal, 1375 Avenue Thérèse-Lavoie-Roux, Montréal, Canada",
+            "institutionIds": [
+              "montreal"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Dipartimento di Fisica e Astronomia, Università di Padova, Vicolo dell’Osservatorio 5, Padova, Italy",
+            "institutionIds": [
+              "padova"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "Istituto di Astrofisica Spaziale e Fisica Cosmica (INAF IASF-MI), Via Alfonso Corti 12, I-20133, Milan, Italy",
+            "institutionIds": [
+              "iasf-milano"
+            ]
+          },
+          {
+            "label": "8",
+            "raw": "Département d’Informatique et de Recherche Opérationnelle, Université de Montréal, 2920 Chemin de la Tour, Montréal, Canada",
+            "institutionIds": [
+              "montreal"
+            ]
+          },
+          {
+            "label": "9",
+            "raw": "Department of Physics, School of Physics and Electronics, Hunan Normal University, Changsha 410081, China",
+            "institutionIds": [
+              "hunan-normal"
+            ]
+          },
+          {
+            "label": "10",
+            "raw": "Purple Mountain Observatory, 10 Yuan Hua Road, Nanjing 210034, China",
+            "institutionIds": [
+              "purple-mountain"
+            ]
+          },
+          {
+            "label": "11",
+            "raw": "Center for Computational Astrophysics, Flatiron Institute, New York, NY, United States of America",
+            "institutionIds": [
+              "flatiron"
+            ]
+          },
+          {
+            "label": "12",
+            "raw": "Canadian Institute for Advanced Research Artificial Intelligence Chair",
+            "institutionIds": [
+              "cifar"
+            ]
+          },
+          {
+            "label": "13",
+            "raw": "Canadian Institute for Advanced Research Senior Fellow",
+            "institutionIds": [
+              "cifar"
+            ]
+          },
+          {
+            "label": "14",
+            "raw": "Institute for Astronomy, Zhejiang University, Hangzhou 310027, China",
+            "institutionIds": [
+              "zhejiang"
+            ]
+          },
+          {
+            "label": "15",
+            "raw": "Max-Planck-Institut für Astronomie, Königstuhl 17, 69117 Heidelberg, Germany",
+            "institutionIds": [
+              "mpia"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1",
+            "2",
+            "3"
+          ],
+          "mario-pasquato": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "benjamin-l-davis": [
+            "1",
+            "2"
+          ],
+          "tristan-deleu": [
+            "4",
+            "8"
+          ],
+          "yu-luo": [
+            "9",
+            "10"
+          ],
+          "changhyun-cho": [
+            "1",
+            "2"
+          ],
+          "pablo-lemos": [
+            "3",
+            "4",
+            "5"
+          ],
+          "laurence-perreault-levasseur": [
+            "3",
+            "4",
+            "5",
+            "11"
+          ],
+          "yoshua-bengio": [
+            "4",
+            "8",
+            "12",
+            "13"
+          ],
+          "xi-kang": [
+            "14",
+            "10"
+          ],
+          "andrea-valerio-maccio": [
+            "1",
+            "2",
+            "15"
+          ],
+          "yashar-hezaveh": [
+            "3",
+            "4",
+            "5",
+            "11"
+          ]
+        },
+        "notes": [
+          "CIFAR AI Chair and Senior Fellow appear as byline affiliation markers, and collapse to one organizational affiliation, not two workplaces. Funding acknowledgments are excluded.",
+          "Ciela, Mila, Flatiron and MPIA remain distinct named research institutes; do not fold the joint Montreal institutes into Université de Montréal.",
+          "All author-affiliation mappings cross-checked against the numeric superscripts in the PDF first page."
+        ],
+        "corroboratingSource": "https://arxiv.org/pdf/2410.00965v2"
+      }
+    },
+    {
+      "id": "sd-black-holes",
+      "title": "Identification of Intermediate-mass Black Hole Candidates among a Sample of Sd Galaxies",
+      "titleMarkdown": "Identification of Intermediate-mass Black Hole Candidates among a Sample of Sd Galaxies",
+      "authorsMarkdown": "BL Davis†, AW Graham, R Soria, **Z Jin**, ID Karachentsev, VE Karachentseva, E D'Onghia",
+      "citation": "The Astrophysical Journal 971, 123 (2024)",
+      "year": 2024,
+      "venue": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ad55eb",
+      "status": "published",
+      "category": "journal",
+      "date": "2024-08-12",
+      "dateNote": "2024-08-12; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data"
+      ],
+      "roles": [],
+      "evidence": [
+        "https://arxiv.org/abs/2406.05778"
+      ],
+      "authorIds": [
+        "benjamin-l-davis",
+        "alister-w-graham",
+        "roberto-soria",
+        "zehao-jin",
+        "igor-d-karachentsev",
+        "valentina-e-karachentseva",
+        "elena-d-onghia"
+      ],
+      "authorSource": "https://arxiv.org/abs/2406.05778",
+      "authorInstitutionIds": {
+        "benjamin-l-davis": [
+          "nyu",
+          "swinburne"
+        ],
+        "alister-w-graham": [
+          "swinburne"
+        ],
+        "roberto-soria": [
+          "inaf-torino",
+          "sydney",
+          "ucas"
+        ],
+        "zehao-jin": [
+          "nyu"
+        ],
+        "igor-d-karachentsev": [
+          "sao-ras"
+        ],
+        "valentina-e-karachentseva": [
+          "mao-ukraine"
+        ],
+        "elena-d-onghia": [
+          "wisconsin-madison"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/pdf/2406.05778",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, VIC 3122, Australia",
+            "institutionIds": [
+              "swinburne"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "INAF-Osservatorio Astrofisico di Torino, Strada Osservatorio 20, I-10025 Pino Torinese, Italy",
+            "institutionIds": [
+              "inaf-torino"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Sydney Institute for Astronomy, School of Physics A28, The University of Sydney, Sydney, NSW 2006, Australia",
+            "institutionIds": [
+              "sydney"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "College of Astronomy and Space Sciences, University of the Chinese Academy of Sciences, Beijing 100049, China",
+            "institutionIds": [
+              "ucas"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Special Astrophysical Observatory, Russian Academy of Sciences, NArkhyz 369167, Russia",
+            "institutionIds": [
+              "sao-ras"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "Main Astronomical Observatory of National Academy of Sciences of Ukraine, Kyiv 03143, Ukraine",
+            "institutionIds": [
+              "mao-ukraine"
+            ]
+          },
+          {
+            "label": "8",
+            "raw": "Astronomy Department, University of Wisconsin, Madison, WI 53706, USA",
+            "institutionIds": [
+              "wisconsin-madison"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "benjamin-l-davis": [
+            "1",
+            "2"
+          ],
+          "alister-w-graham": [
+            "2"
+          ],
+          "roberto-soria": [
+            "3",
+            "4",
+            "5"
+          ],
+          "zehao-jin": [
+            "1"
+          ],
+          "igor-d-karachentsev": [
+            "6"
+          ],
+          "valentina-e-karachentseva": [
+            "7"
+          ],
+          "elena-d-onghia": [
+            "8"
+          ]
+        },
+        "notes": [
+          "The PDF text extraction mangles the postal-place typography in the Special Astrophysical Observatory address; the institution itself and author association are unambiguous. Raw extraction retained."
+        ]
+      }
+    },
+    {
+      "id": "hello",
+      "title": "HELLO project: high-z evolution of large and luminous objects",
+      "titleMarkdown": "HELLO project: high-z evolution of large and luminous objects",
+      "authorsMarkdown": "S Waterval†, AV Macciò, T Buck, A Obreja, C Cho, **Z Jin**, BL Davis, KL Dixon, X Kang",
+      "citation": "Monthly Notices of the Royal Astronomical Society 533, 1463-1484 (2024)",
+      "year": 2024,
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "url": "https://doi.org/10.1093/mnras/stae1913",
+      "status": "published",
+      "category": "journal",
+      "date": "2024-08-08",
+      "dateNote": "2024-08-08; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "numerical-simulation"
+      ],
+      "roles": [],
+      "evidence": [
+        "https://arxiv.org/html/2403.03985"
+      ],
+      "authorIds": [
+        "stefan-waterval",
+        "andrea-valerio-maccio",
+        "tobias-buck",
+        "aura-obreja",
+        "changhyun-cho",
+        "zehao-jin",
+        "benjamin-l-davis",
+        "keri-l-dixon",
+        "xi-kang"
+      ],
+      "authorSource": "https://arxiv.org/html/2403.03985",
+      "authorInstitutionIds": {
+        "stefan-waterval": [
+          "nyu"
+        ],
+        "andrea-valerio-maccio": [
+          "mpia",
+          "nyu"
+        ],
+        "tobias-buck": [
+          "heidelberg"
+        ],
+        "aura-obreja": [
+          "heidelberg"
+        ],
+        "changhyun-cho": [
+          "nyu"
+        ],
+        "zehao-jin": [
+          "nyu"
+        ],
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "keri-l-dixon": [
+          "nyu"
+        ],
+        "xi-kang": [
+          "purple-mountain",
+          "zhejiang"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/pdf/2403.03985",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Abu Dhabi, United Arab Emirates",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Max-Planck-Institut für Astronomie, Königstuhl 17, D-69117 Heidelberg, Germany",
+            "institutionIds": [
+              "mpia"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Interdisziplinäres Zentrum für Wissenschaftliches Rechnen, Universität Heidelberg, Im Neuenheimer Feld 205, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Zentrum für Astronomie, Institut für Theoretische Astrophysik, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Institute for Astronomy, Zhejiang University, Hangzhou 310027, China",
+            "institutionIds": [
+              "zhejiang"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "Purple Mountain Observatory, 10 Yuan Hua Road, Nanjing 210034, China",
+            "institutionIds": [
+              "purple-mountain"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "stefan-waterval": [
+            "1",
+            "2"
+          ],
+          "andrea-valerio-maccio": [
+            "1",
+            "2",
+            "3"
+          ],
+          "tobias-buck": [
+            "4",
+            "5"
+          ],
+          "aura-obreja": [
+            "4",
+            "5"
+          ],
+          "changhyun-cho": [
+            "1",
+            "2"
+          ],
+          "zehao-jin": [
+            "1",
+            "2"
+          ],
+          "benjamin-l-davis": [
+            "1",
+            "2"
+          ],
+          "keri-l-dixon": [
+            "1",
+            "2"
+          ],
+          "xi-kang": [
+            "6",
+            "7"
+          ]
+        },
+        "notes": [
+          "PDF v2 dated 8 October 2024 inspected. Use PDF superscripts: linearized HTML misleadingly attaches preceding institution blocks to Xi Kang. Xi Kang has only affiliations 6 and 7."
+        ]
+      }
+    },
+    {
+      "id": "rating-simulations",
+      "title": "Quantitatively rating galaxy simulations against real observations with anomaly detection",
+      "titleMarkdown": "Quantitatively rating galaxy simulations against real observations with anomaly detection",
+      "authorsMarkdown": "**Z Jin†**, AV Macciò, N Faucher, M Pasquato, T Buck, KL Dixon, N Arora, M Blank, P Vulanovic",
+      "citation": "Monthly Notices of the Royal Astronomical Society 529, 3536-3549 (2024)",
+      "year": 2024,
+      "venue": "Monthly Notices of the Royal Astronomical Society",
+      "url": "https://doi.org/10.1093/mnras/stae552",
+      "status": "published",
+      "category": "journal",
+      "date": "2024-02-21",
+      "dateNote": "2024-02-21; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "numerical-simulation",
+        "representation-learning",
+        "deep-learning"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
+      "evidence": [
+        "https://academic.oup.com/mnras/article/529/4/3536/7612260"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "andrea-valerio-maccio",
+        "nicholas-faucher",
+        "mario-pasquato",
+        "tobias-buck",
+        "keri-l-dixon",
+        "nikhil-arora",
+        "marvin-blank",
+        "pavle-vulanovic"
+      ],
+      "authorSource": "https://arxiv.org/abs/2403.19464",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "nyu"
+        ],
+        "andrea-valerio-maccio": [
+          "mpia",
+          "nyu"
+        ],
+        "nicholas-faucher": [
+          "nyu"
+        ],
+        "mario-pasquato": [
+          "mila",
+          "montreal",
+          "nyu",
+          "padova"
+        ],
+        "tobias-buck": [
+          "heidelberg"
+        ],
+        "keri-l-dixon": [
+          "nyu"
+        ],
+        "nikhil-arora": [
+          "nyu",
+          "queens"
+        ],
+        "marvin-blank": [
+          "nyu"
+        ],
+        "pavle-vulanovic": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/pdf/2403.19464",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Saadiyat Island, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Max-Planck-Institut für Astronomie, Königstuhl 17, D-69117 Heidelberg, Germany",
+            "institutionIds": [
+              "mpia"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Center for Cosmology and Particle Physics, Department of Physics, New York University, 726 Broadway, New York, New York 10003, USA",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Physics and Astronomy Department Galileo Galilei, University of Padova, Vicolo dell’Osservatorio 3, I–35122, Padova",
+            "institutionIds": [
+              "padova"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Département de Physique, Université de Montréal, 1375 Ave. Thérèse-Lavoie-Roux, Montréal, QC H2V 0B3, Canada",
+            "institutionIds": [
+              "montreal"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "Mila - Quebec Artificial Intelligence Institute, 6666 Rue Saint-Urbain, Montréal, QC H2S 3H1, Canada",
+            "institutionIds": [
+              "mila"
+            ]
+          },
+          {
+            "label": "8",
+            "raw": "Interdisziplinäres Zentrum für Wissenschaftliches Rechnen, Universität Heidelberg, Im Neuenheimer Feld 205, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "9",
+            "raw": "Zentrum für Astronomie, Institut für Theoretische Astrophysik, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120 Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          },
+          {
+            "label": "10",
+            "raw": "Department of Physics, Engineering Physics & Astronomy, Queen’s University, Kingston, ON K7L 3N6, Canada",
+            "institutionIds": [
+              "queens"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1",
+            "2"
+          ],
+          "andrea-valerio-maccio": [
+            "1",
+            "2",
+            "3"
+          ],
+          "nicholas-faucher": [
+            "4"
+          ],
+          "mario-pasquato": [
+            "1",
+            "2",
+            "5",
+            "6",
+            "7"
+          ],
+          "tobias-buck": [
+            "8",
+            "9"
+          ],
+          "keri-l-dixon": [
+            "1",
+            "2"
+          ],
+          "nikhil-arora": [
+            "1",
+            "2",
+            "10"
+          ],
+          "marvin-blank": [
+            "1",
+            "2"
+          ],
+          "pavle-vulanovic": [
+            "1",
+            "2"
+          ]
+        },
+        "notes": [
+          "PDF v1 dated 28 March 2024 inspected. Queen’s University belongs only to Nikhil Arora. New York and Abu Dhabi campus labels remain raw but share the New York University institution ID, per agreed counting policy."
+        ]
+      }
+    },
+    {
+      "id": "planar-relation",
+      "title": "Discovery of a Planar Black Hole Mass Scaling Relation for Spiral Galaxies",
+      "titleMarkdown": "Discovery of a Planar Black Hole Mass Scaling Relation for Spiral Galaxies",
+      "authorsMarkdown": "BL Davis†, **Z Jin**",
+      "citation": "The Astrophysical Journal Letters 956, L22 (2023)",
+      "year": 2023,
+      "venue": "The Astrophysical Journal Letters",
+      "url": "https://doi.org/10.3847/2041-8213/acfa98",
+      "status": "published",
+      "category": "journal",
+      "date": "2023-10-11",
+      "dateNote": "2023-10-11; publisher first-online publication.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "symbolic-regression"
+      ],
+      "roles": [],
+      "evidence": [
+        "https://arxiv.org/html/2309.08986"
+      ],
+      "authorIds": [
+        "benjamin-l-davis",
+        "zehao-jin"
+      ],
+      "authorSource": "https://arxiv.org/abs/2309.08986",
+      "authorInstitutionIds": {
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "zehao-jin": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2309.08986",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "benjamin-l-davis": [
+            "1"
+          ],
+          "zehao-jin": [
+            "1"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "galactic-archaeology",
+      "title": "Causal Discovery of Latent Variables in Galactic Archaeology",
+      "titleMarkdown": "Causal Discovery of Latent Variables in Galactic Archaeology",
+      "authorsMarkdown": "**Z Jin\\*†**, Y Lu\\*, Y-S Ting, Y Zheng, T Buck",
+      "citation": "ICML Machine Learning for Astrophysics Workshop (2025); arXiv:2507.00134",
+      "year": 2025,
+      "venue": "ICML · Machine Learning for Astrophysics Workshop",
+      "url": "https://arxiv.org/abs/2507.00134",
+      "status": "published",
+      "category": "workshop",
+      "date": "2025-06-30",
+      "dateNote": "2025-06-30; arXiv v1 submission-history fallback.",
+      "scales": [
+        "stars"
+      ],
+      "approaches": [
+        "numerical-simulation",
+        "causal-discovery",
+        "representation-learning"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author",
+        "highlighted"
+      ],
+      "evidence": [
+        "https://arxiv.org/html/2507.00134v1"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "yuxi-lucy-lu",
+        "yuan-sen-ting",
+        "yujia-zheng",
+        "tobias-buck"
+      ],
+      "authorSource": "https://arxiv.org/html/2507.00134v1",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "fudan",
+          "nyu"
+        ],
+        "yuxi-lucy-lu": [
+          "ohio-state"
+        ],
+        "yuan-sen-ting": [
+          "ohio-state"
+        ],
+        "yujia-zheng": [
+          "cmu"
+        ],
+        "tobias-buck": [
+          "heidelberg"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2507.00134v1",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astronomy and Astrophysics and Department of Physics, Fudan University, Shanghai 200438, People’s Republic of China",
+            "institutionIds": [
+              "fudan"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Center for Cosmology and Astroparticle Physics (CCAPP), The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA",
+            "institutionIds": [
+              "ohio-state"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Carnegie Mellon University, Pittsburgh, PA, USA",
+            "institutionIds": [
+              "cmu"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Universität Heidelberg, Interdisziplinäres Zentrum für Wissenschaftliches Rechnen, Im Neuenheimer Feld 205, Heidelberg, Germany",
+            "institutionIds": [
+              "heidelberg"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1",
+            "2"
+          ],
+          "yuxi-lucy-lu": [
+            "3"
+          ],
+          "yuan-sen-ting": [
+            "3"
+          ],
+          "yujia-zheng": [
+            "4"
+          ],
+          "tobias-buck": [
+            "5"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "ica",
+      "title": "Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis",
+      "titleMarkdown": "Beyond Causal Discovery for Astronomy: Learning Meaningful Representations with Independent Component Analysis",
+      "authorsMarkdown": "**Z Jin†**, M Pasquato, BL Davis, AV Macciò, Y Hezaveh",
+      "citation": "NeurIPS Causal Representation Learning Workshop (2024); arXiv:2410.14775",
+      "year": 2024,
+      "venue": "NeurIPS · Causal Representation Learning Workshop",
+      "url": "https://arxiv.org/abs/2410.14775",
+      "status": "published",
+      "category": "workshop",
+      "date": "2024-10-18",
+      "dateNote": "2024-10-18; arXiv v1 submission-history fallback.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "causal-discovery",
+        "representation-learning"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
+      "evidence": [
+        "https://arxiv.org/html/2410.14775v1"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "mario-pasquato",
+        "benjamin-l-davis",
+        "andrea-valerio-maccio",
+        "yashar-hezaveh"
+      ],
+      "authorSource": "https://arxiv.org/abs/2410.14775",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "ciela",
+          "nyu"
+        ],
+        "mario-pasquato": [
+          "ciela",
+          "iasf-milano",
+          "mila",
+          "montreal",
+          "padova"
+        ],
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "andrea-valerio-maccio": [
+          "mpia",
+          "nyu"
+        ],
+        "yashar-hezaveh": [
+          "ciela",
+          "flatiron",
+          "mila",
+          "montreal"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2410.14775",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Abu Dhabi, United Arab Emirates",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Ciela - Montreal Institute for Astrophysical Data Analysis and Machine Learning, Montréal, Canada",
+            "institutionIds": [
+              "ciela"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Mila - Quebec Artificial Intelligence Institute, 6666 Rue Saint-Urbain, Montréal, QC H2S 3H1, Canada",
+            "institutionIds": [
+              "mila"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "Département de Physique, Université de Montréal, 1375 Ave. Thérèse-Lavoie-Roux, Montréal, QC H2V 0B3, Canada",
+            "institutionIds": [
+              "montreal"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Dipartimento di Fisica e Astronomia, Università di Padova, Vicolo Osservatorio 5, Padova, Italy",
+            "institutionIds": [
+              "padova"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "Istituto di Astrofisica Spaziale e Fisica Cosmica (INAF IASF-MI), Via Alfonso Corti 12, I-20133, Milan, Italy",
+            "institutionIds": [
+              "iasf-milano"
+            ]
+          },
+          {
+            "label": "8",
+            "raw": "Max-Planck-Institut für Astronomie, Königstuhl 17, D-69117 Heidelberg, Germany",
+            "institutionIds": [
+              "mpia"
+            ]
+          },
+          {
+            "label": "9",
+            "raw": "Center for Computational Astrophysics, Flatiron Institute, New York, NY, USA",
+            "institutionIds": [
+              "flatiron"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1",
+            "2",
+            "3"
+          ],
+          "mario-pasquato": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "benjamin-l-davis": [
+            "1",
+            "2"
+          ],
+          "andrea-valerio-maccio": [
+            "1",
+            "2",
+            "8"
+          ],
+          "yashar-hezaveh": [
+            "3",
+            "4",
+            "5",
+            "9"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "causa-prima",
+      "title": "Causa prima: cosmology meets causal discovery for the first time",
+      "titleMarkdown": "Causa prima: cosmology meets causal discovery for the first time",
+      "authorsMarkdown": "M Pasquato†, **Z Jin**, P Lemos, BL Davis, AV Macciò",
+      "citation": "NeurIPS Machine Learning and the Physical Sciences Workshop (2023); arXiv:2311.15160",
+      "year": 2023,
+      "venue": "NeurIPS · Machine Learning and the Physical Sciences Workshop",
+      "url": "https://arxiv.org/abs/2311.15160",
+      "status": "published",
+      "category": "workshop",
+      "date": "2023-11-26",
+      "dateNote": "2023-11-26; arXiv v1 submission-history fallback.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "causal-discovery"
+      ],
+      "roles": [],
+      "evidence": [
+        "https://arxiv.org/html/2311.15160"
+      ],
+      "authorIds": [
+        "mario-pasquato",
+        "zehao-jin",
+        "pablo-lemos",
+        "benjamin-l-davis",
+        "andrea-valerio-maccio"
+      ],
+      "authorSource": "https://arxiv.org/abs/2311.15160",
+      "authorInstitutionIds": {
+        "mario-pasquato": [
+          "ciela",
+          "infn-padova",
+          "mila",
+          "montreal",
+          "padova"
+        ],
+        "zehao-jin": [
+          "nyu"
+        ],
+        "pablo-lemos": [
+          "ciela",
+          "mila",
+          "montreal"
+        ],
+        "benjamin-l-davis": [
+          "nyu"
+        ],
+        "andrea-valerio-maccio": [
+          "mpia",
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2311.15160",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Département de Physique, Université de Montréal, 1375 Ave. Thérèse-Lavoie-Roux, Montréal, QC H2V 0B3, Canada",
+            "institutionIds": [
+              "montreal"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "Mila - Quebec Artificial Intelligence Institute, 6666 Rue Saint-Urbain, Montréal, QC H2S 3H1, Canada",
+            "institutionIds": [
+              "mila"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "Ciela - Montreal Institute for Astrophysical Data Analysis and Machine Learning, Montréal, Canada",
+            "institutionIds": [
+              "ciela"
+            ]
+          },
+          {
+            "label": "4",
+            "raw": "Dipartimento di Fisica e Astronomia, Università di Padova, Vicolo Osservatorio 5, Padova, Italy",
+            "institutionIds": [
+              "padova"
+            ]
+          },
+          {
+            "label": "5",
+            "raw": "INFN - Padova, Via Marzolo 8, Padova, Italy",
+            "institutionIds": [
+              "infn-padova"
+            ]
+          },
+          {
+            "label": "6",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "7",
+            "raw": "New York University Abu Dhabi, PO Box 129188, Abu Dhabi, United Arab Emirates",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "8",
+            "raw": "Max-Planck-Institut für Astronomie, Königstuhl 17, D-69117 Heidelberg, Germany",
+            "institutionIds": [
+              "mpia"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "mario-pasquato": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "zehao-jin": [
+            "6"
+          ],
+          "pablo-lemos": [
+            "1",
+            "2",
+            "3"
+          ],
+          "benjamin-l-davis": [
+            "6"
+          ],
+          "andrea-valerio-maccio": [
+            "7",
+            "6",
+            "8"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "symbolic-scaling",
+      "title": "Discovering Black Hole Mass Scaling Relations with Symbolic Regression",
+      "titleMarkdown": "Discovering Black Hole Mass Scaling Relations with Symbolic Regression",
+      "authorsMarkdown": "**Z Jin†**, BL Davis",
+      "citation": "NeurIPS Machine Learning and the Physical Sciences Workshop (2023); arXiv:2310.19406",
+      "year": 2023,
+      "venue": "NeurIPS · Machine Learning and the Physical Sciences Workshop",
+      "url": "https://arxiv.org/abs/2310.19406",
+      "status": "published",
+      "category": "workshop",
+      "date": "2023-10-30",
+      "dateNote": "2023-10-30; arXiv v1 submission-history fallback.",
+      "scales": [
+        "galaxies-smbhs"
+      ],
+      "approaches": [
+        "observational-data",
+        "symbolic-regression"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
+      "evidence": [
+        "https://arxiv.org/abs/2310.19406"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "benjamin-l-davis"
+      ],
+      "authorSource": "https://arxiv.org/abs/2310.19406",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "nyu"
+        ],
+        "benjamin-l-davis": [
+          "nyu"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://arxiv.org/html/2310.19406",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astrophysics and Space Science (CASS), New York University Abu Dhabi, PO Box 129188, Abu Dhabi, UAE",
+            "institutionIds": [
+              "nyu"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1"
+          ],
+          "benjamin-l-davis": [
+            "1"
+          ]
+        },
+        "notes": [
+          "Source v2 dated 20 November 2023 has New York University and Abu Dhabi on adjacent lines; these form the Abu Dhabi campus name, not a separate New York campus affiliation."
+        ]
+      }
+    },
+    {
+      "id": "least-action",
+      "title": "Learning the Principle of Least Action with Reinforcement Learning",
+      "titleMarkdown": "Learning the Principle of Least Action with Reinforcement Learning",
+      "authorsMarkdown": "**Z Jin\\*†**, JYY Lin\\*, SF Li",
+      "citation": "AAAI Spring Symposium on Combining Artificial Intelligence and Machine Learning with Physical Sciences (2021); CEUR Workshop Proceedings 2964, extended abstract",
+      "year": 2021,
+      "venue": "AAAI Spring Symposium · Combining AI and ML with Physical Sciences",
+      "url": "https://ceur-ws.org/Vol-2964/article_201.pdf",
+      "status": "published",
+      "category": "workshop",
+      "date": "2021-10-03",
+      "dateNote": "2021-10-03; CEUR proceedings publication.",
+      "scales": [
+        "general-physics"
+      ],
+      "approaches": [
+        "numerical-simulation",
+        "reinforcement-learning"
+      ],
+      "roles": [
+        "first-author",
+        "corresponding-author"
+      ],
+      "evidence": [
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "joshua-yao-yu-lin",
+        "siao-fong-li"
+      ],
+      "authorSource": "https://ceur-ws.org/Vol-2964/article_201.pdf",
+      "authorInstitutionIds": {
+        "zehao-jin": [
+          "nyu"
+        ],
+        "joshua-yao-yu-lin": [
+          "uiuc"
+        ],
+        "siao-fong-li": [
+          "umass-amherst"
+        ]
+      },
+      "affiliationAudit": {
+        "source": "https://ceur-ws.org/Vol-2964/article_201.pdf",
+        "affiliations": [
+          {
+            "label": "1",
+            "raw": "Center for Astro, Particle and Planetary Physics (CAP3), New York University Abu Dhabi",
+            "institutionIds": [
+              "nyu"
+            ]
+          },
+          {
+            "label": "2",
+            "raw": "University of Illinois at Urbana-Champaign",
+            "institutionIds": [
+              "uiuc"
+            ]
+          },
+          {
+            "label": "3",
+            "raw": "University of Massachusetts, Amherst",
+            "institutionIds": [
+              "umass-amherst"
+            ]
+          }
+        ],
+        "authorLabels": {
+          "zehao-jin": [
+            "1"
+          ],
+          "joshua-yao-yu-lin": [
+            "2"
+          ],
+          "siao-fong-li": [
+            "3"
+          ]
+        },
+        "notes": []
+      }
+    },
+    {
+      "id": "galactic-chemodynamics",
+      "title": "Causal Discovery Reveals Latent Structure in Galactic Chemodynamics",
+      "titleMarkdown": "Causal Discovery Reveals Latent Structure in Galactic Chemodynamics",
+      "authorsMarkdown": "**Z Jin**, Y Lu, Y-S Ting, Y Zheng, T Buck",
+      "citation": "Submitted to ApJ, October 2026; extends the 2025 galactic-archaeology workshop study",
+      "year": null,
+      "venue": "Submitted to ApJ",
+      "url": null,
+      "status": "submitted",
+      "category": "submitted",
+      "date": null,
+      "dateNote": "not applicable; submitted; no publication date.",
+      "scales": [
+        "stars"
+      ],
+      "approaches": [
+        "numerical-simulation",
+        "causal-discovery",
+        "representation-learning"
+      ],
+      "roles": [
+        "first-author",
+        "highlighted",
+        "submitted"
+      ],
+      "evidence": [
+        "Base CV and current research statement; manuscript tags provisional."
+      ],
+      "authorIds": [
+        "zehao-jin",
+        "yuxi-lucy-lu",
+        "yuan-sen-ting",
+        "yujia-zheng",
+        "tobias-buck"
+      ],
+      "authorSource": "Existing approved publication list; excluded from published collaboration network."
+    }
+  ],
+  "authors": [
+    {
+      "id": "zehao-jin",
+      "name": "Zehao Jin",
+      "abbreviation": "Z Jin",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2602.16775",
+        "https://arxiv.org/abs/2410.10606",
+        "https://arxiv.org/abs/2508.10089",
+        "https://arxiv.org/abs/2504.08045",
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/abs/2406.05778",
+        "https://arxiv.org/html/2403.03985",
+        "https://arxiv.org/abs/2403.19464",
+        "https://arxiv.org/abs/2309.08986",
+        "https://arxiv.org/html/2507.00134v1",
+        "https://arxiv.org/abs/2410.14775",
+        "https://arxiv.org/abs/2311.15160",
+        "https://arxiv.org/abs/2310.19406",
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ],
+      "chineseName": "金泽灏",
+      "chineseNameSources": [
+        "https://arxiv.org/html/2410.00965"
+      ],
+      "chineseNameEvidence": "Explicitly supplied by the user; also in this paper's author byline."
+    },
+    {
+      "id": "mohamad-ali-dib",
+      "name": "Mohamad Ali-Dib",
+      "abbreviation": "M Ali-Dib",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2508.10089"
+      ]
+    },
+    {
+      "id": "yujia-zheng",
+      "name": "Yujia Zheng",
+      "abbreviation": "Y Zheng",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2508.10089",
+        "https://arxiv.org/html/2507.00134v1"
+      ],
+      "chineseName": "郑雨嘉",
+      "chineseNameSources": [
+        "https://yjzheng.com/"
+      ],
+      "chineseNameEvidence": "Personal homepage explicitly opens Yujia Zheng (郑雨嘉), identifies CMU PhD with Kun Zhang and lists the shared astronomy papers."
+    },
+    {
+      "id": "mario-pasquato",
+      "name": "Mario Pasquato",
+      "abbreviation": "M Pasquato",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2602.16775",
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/abs/2403.19464",
+        "https://arxiv.org/abs/2410.14775",
+        "https://arxiv.org/abs/2311.15160"
+      ]
+    },
+    {
+      "id": "benjamin-l-davis",
+      "name": "Benjamin L. Davis",
+      "abbreviation": "BL Davis",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2602.16775",
+        "https://arxiv.org/abs/2508.10089",
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/abs/2406.05778",
+        "https://arxiv.org/html/2403.03985",
+        "https://arxiv.org/abs/2309.08986",
+        "https://arxiv.org/abs/2410.14775",
+        "https://arxiv.org/abs/2311.15160",
+        "https://arxiv.org/abs/2310.19406"
+      ]
+    },
+    {
+      "id": "andrea-valerio-maccio",
+      "name": "Andrea Valerio Macciò",
+      "abbreviation": "AV Macciò",
+      "sources": [
+        "https://arxiv.org/abs/2608.16988",
+        "https://arxiv.org/abs/2602.16775",
+        "https://arxiv.org/abs/2508.10089",
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/html/2403.03985",
+        "https://arxiv.org/abs/2403.19464",
+        "https://arxiv.org/abs/2410.14775",
+        "https://arxiv.org/abs/2311.15160"
+      ]
+    },
+    {
+      "id": "saakshi-more",
+      "name": "Saakshi More",
+      "abbreviation": "S More",
+      "sources": [
+        "https://arxiv.org/abs/2602.16775"
+      ]
+    },
+    {
+      "id": "feng-yuan",
+      "name": "Feng Yuan",
+      "abbreviation": "F Yuan",
+      "sources": [
+        "https://arxiv.org/abs/2602.16775"
+      ],
+      "chineseName": "袁峰",
+      "chineseNameSources": [
+        "https://phys.fudan.edu.cn/1b/35/c7605a662325/page.htm",
+        "https://kiaa.pku.edu.cn/info/1011/2656.htm"
+      ],
+      "chineseNameEvidence": "Fudan faculty page gives both 袁峰 and Feng Yuan; PKU Kavli profile is headed Feng Yuan (袁峰). Same black-hole/accretion astrophysicist."
+    },
+    {
+      "id": "lingyi-zhou",
+      "name": "Lingyi Zhou",
+      "abbreviation": "L Zhou",
+      "sources": [
+        "https://arxiv.org/abs/2410.10606"
+      ]
+    },
+    {
+      "id": "stefan-t-radev",
+      "name": "Stefan T. Radev",
+      "abbreviation": "ST Radev",
+      "sources": [
+        "https://arxiv.org/abs/2410.10606"
+      ]
+    },
+    {
+      "id": "william-h-oliver",
+      "name": "William H. Oliver",
+      "abbreviation": "WH Oliver",
+      "sources": [
+        "https://arxiv.org/abs/2410.10606"
+      ]
+    },
+    {
+      "id": "aura-obreja",
+      "name": "Aura Obreja",
+      "abbreviation": "A Obreja",
+      "sources": [
+        "https://arxiv.org/abs/2410.10606",
+        "https://arxiv.org/html/2403.03985"
+      ]
+    },
+    {
+      "id": "tobias-buck",
+      "name": "Tobias Buck",
+      "abbreviation": "T Buck",
+      "sources": [
+        "https://arxiv.org/abs/2410.10606",
+        "https://arxiv.org/html/2403.03985",
+        "https://arxiv.org/abs/2403.19464",
+        "https://arxiv.org/html/2507.00134v1"
+      ]
+    },
+    {
+      "id": "kun-zhang",
+      "name": "Kun Zhang",
+      "abbreviation": "K Zhang",
+      "sources": [
+        "https://arxiv.org/abs/2508.10089"
+      ],
+      "chineseName": "张坤",
+      "chineseNameSources": [
+        "https://dmir.gdut.edu.cn/info/1003/1067.htm",
+        "https://www.andrew.cmu.edu/user/kunz1/"
+      ],
+      "chineseNameEvidence": "GDUT institutional report of Kun Zhang's 2018-12-31 invited talk calls him 张坤 and identifies the CMU assistant professor researching causal discovery. CMU personal page confirms the matching researcher."
+    },
+    {
+      "id": "joseph-d-gelfand",
+      "name": "Joseph D. Gelfand",
+      "abbreviation": "JD Gelfand",
+      "sources": [
+        "https://arxiv.org/abs/2504.08045"
+      ]
+    },
+    {
+      "id": "tristan-deleu",
+      "name": "Tristan Deleu",
+      "abbreviation": "T Deleu",
+      "sources": [
+        "https://arxiv.org/html/2410.00965"
+      ]
+    },
+    {
+      "id": "yu-luo",
+      "name": "Yu Luo",
+      "abbreviation": "Y Luo",
+      "sources": [
+        "https://arxiv.org/html/2410.00965"
+      ],
+      "chineseName": "罗煜",
+      "chineseNameSources": [
+        "https://arxiv.org/html/2410.00965"
+      ],
+      "chineseNameEvidence": "Shared paper's byline explicitly gives Yu Luo (罗煜), with Hunan Normal University and Purple Mountain Observatory affiliations."
+    },
+    {
+      "id": "changhyun-cho",
+      "name": "Changhyun Cho",
+      "abbreviation": "C Cho",
+      "sources": [
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/html/2403.03985"
+      ]
+    },
+    {
+      "id": "pablo-lemos",
+      "name": "Pablo Lemos",
+      "abbreviation": "P Lemos",
+      "sources": [
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/abs/2311.15160"
+      ]
+    },
+    {
+      "id": "laurence-perreault-levasseur",
+      "name": "Laurence Perreault-Levasseur",
+      "abbreviation": "L Perreault-Levasseur",
+      "sources": [
+        "https://arxiv.org/html/2410.00965"
+      ]
+    },
+    {
+      "id": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "abbreviation": "Y Bengio",
+      "sources": [
+        "https://arxiv.org/html/2410.00965"
+      ]
+    },
+    {
+      "id": "xi-kang",
+      "name": "Xi Kang",
+      "abbreviation": "X Kang",
+      "sources": [
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/html/2403.03985"
+      ],
+      "chineseName": "康熙",
+      "chineseNameSources": [
+        "https://arxiv.org/html/2410.00965"
+      ],
+      "chineseNameEvidence": "Shared paper's byline explicitly gives Xi Kang (康熙), with Zhejiang University and Purple Mountain Observatory affiliations."
+    },
+    {
+      "id": "yashar-hezaveh",
+      "name": "Yashar Hezaveh",
+      "abbreviation": "Y Hezaveh",
+      "sources": [
+        "https://arxiv.org/html/2410.00965",
+        "https://arxiv.org/abs/2410.14775"
+      ]
+    },
+    {
+      "id": "alister-w-graham",
+      "name": "Alister W. Graham",
+      "abbreviation": "AW Graham",
+      "sources": [
+        "https://arxiv.org/abs/2406.05778"
+      ]
+    },
+    {
+      "id": "roberto-soria",
+      "name": "Roberto Soria",
+      "abbreviation": "R Soria",
+      "sources": [
+        "https://arxiv.org/abs/2406.05778"
+      ]
+    },
+    {
+      "id": "igor-d-karachentsev",
+      "name": "Igor D. Karachentsev",
+      "abbreviation": "ID Karachentsev",
+      "sources": [
+        "https://arxiv.org/abs/2406.05778"
+      ]
+    },
+    {
+      "id": "valentina-e-karachentseva",
+      "name": "Valentina E. Karachentseva",
+      "abbreviation": "VE Karachentseva",
+      "sources": [
+        "https://arxiv.org/abs/2406.05778"
+      ]
+    },
+    {
+      "id": "elena-d-onghia",
+      "name": "Elena D'Onghia",
+      "abbreviation": "E D'Onghia",
+      "sources": [
+        "https://arxiv.org/abs/2406.05778"
+      ]
+    },
+    {
+      "id": "stefan-waterval",
+      "name": "Stefan Waterval",
+      "abbreviation": "S Waterval",
+      "sources": [
+        "https://arxiv.org/html/2403.03985"
+      ]
+    },
+    {
+      "id": "keri-l-dixon",
+      "name": "Keri L. Dixon",
+      "abbreviation": "KL Dixon",
+      "sources": [
+        "https://arxiv.org/html/2403.03985",
+        "https://arxiv.org/abs/2403.19464"
+      ]
+    },
+    {
+      "id": "nicholas-faucher",
+      "name": "Nicholas Faucher",
+      "abbreviation": "N Faucher",
+      "sources": [
+        "https://arxiv.org/abs/2403.19464"
+      ]
+    },
+    {
+      "id": "nikhil-arora",
+      "name": "Nikhil Arora",
+      "abbreviation": "N Arora",
+      "sources": [
+        "https://arxiv.org/abs/2403.19464"
+      ]
+    },
+    {
+      "id": "marvin-blank",
+      "name": "Marvin Blank",
+      "abbreviation": "M Blank",
+      "sources": [
+        "https://arxiv.org/abs/2403.19464"
+      ]
+    },
+    {
+      "id": "pavle-vulanovic",
+      "name": "Pavle Vulanović",
+      "abbreviation": "P Vulanovic",
+      "sources": [
+        "https://arxiv.org/abs/2403.19464"
+      ]
+    },
+    {
+      "id": "yuxi-lucy-lu",
+      "name": "Yuxi (Lucy) Lu",
+      "abbreviation": "Y Lu",
+      "sources": [
+        "https://arxiv.org/html/2507.00134v1"
+      ]
+    },
+    {
+      "id": "yuan-sen-ting",
+      "name": "Yuan-Sen Ting",
+      "abbreviation": "Y-S Ting",
+      "sources": [
+        "https://arxiv.org/html/2507.00134v1"
+      ],
+      "chineseName": "丁源森",
+      "chineseNameSources": [],
+      "chineseNameEvidence": "Explicit spelling supplied by the user in the current website request."
+    },
+    {
+      "id": "joshua-yao-yu-lin",
+      "name": "Joshua Yao-Yu Lin",
+      "abbreviation": "JYY Lin",
+      "sources": [
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ],
+      "chineseName": "林曜宇",
+      "chineseNameSources": [
+        "https://www.taiwantechsummit.com/joshua-yao-yu-lin",
+        "https://www.btbatw.org/events/2025-03-01/2025-03-01.html",
+        "https://joshualin24.github.io/"
+      ],
+      "chineseNameEvidence": "Official speaker profiles explicitly pair 林曜宇 with Joshua Yao-Yu Lin and identify UIUC physics PhD, NTU master's, Genentech machine learning scientist, and former Flatiron researcher. His personal homepage confirms the matching biography and interest in reinforcement learning."
+    },
+    {
+      "id": "siao-fong-li",
+      "name": "Siao-Fong Li",
+      "abbreviation": "SF Li",
+      "sources": [
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ],
+      "chineseName": "李曉峰",
+      "chineseNameSources": [
+        "https://tdr.lib.ntu.edu.tw/bitstream/123456789/5392/1/ntu-103-1.pdf",
+        "https://www.ornl.gov/staff-profile/siao-fong-li",
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ],
+      "chineseNameEvidence": "NTU institutional 2014 physics thesis title page pairs 李曉峰 with Siao-Fong Li. ORNL biography confirms the NTU physics master's in 2014 and UMass Amherst physics PhD, matching the least-action coauthor's affiliation. Traditional spelling preserved."
+    }
+  ],
+  "institutions": [
+    {
+      "id": "cifar",
+      "name": "Canadian Institute for Advanced Research (CIFAR)",
+      "sources": [
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "cmu",
+      "name": "Carnegie Mellon University",
+      "sources": [
+        "https://arxiv.org/html/2507.00134v1",
+        "https://arxiv.org/html/2608.16988",
+        "https://arxiv.org/pdf/2508.10089"
+      ]
+    },
+    {
+      "id": "ciela",
+      "name": "Ciela Institute",
+      "sources": [
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2608.16988",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "flatiron",
+      "name": "Flatiron Institute",
+      "sources": [
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "fudan",
+      "name": "Fudan University",
+      "sources": [
+        "https://arxiv.org/html/2507.00134v1",
+        "https://arxiv.org/html/2608.16988",
+        "https://arxiv.org/html/2602.16775",
+        "https://arxiv.org/pdf/2508.10089"
+      ]
+    },
+    {
+      "id": "heidelberg",
+      "name": "Heidelberg University",
+      "sources": [
+        "https://arxiv.org/pdf/2403.03985",
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2507.00134v1",
+        "https://arxiv.org/html/2410.10606v2"
+      ]
+    },
+    {
+      "id": "hunan-normal",
+      "name": "Hunan Normal University",
+      "sources": [
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "inaf-torino",
+      "name": "INAF – Astrophysical Observatory of Torino",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "iasf-milano",
+      "name": "INAF – Institute of Space Astrophysics and Cosmic Physics of Milan (IASF-Milano)",
+      "sources": [
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2608.16988",
+        "https://arxiv.org/html/2602.16775",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "infn-padova",
+      "name": "INFN – Padova Division",
+      "sources": [
+        "https://arxiv.org/html/2311.15160"
+      ]
+    },
+    {
+      "id": "mao-ukraine",
+      "name": "Main Astronomical Observatory, National Academy of Sciences of Ukraine",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "mpia",
+      "name": "Max Planck Institute for Astronomy",
+      "sources": [
+        "https://arxiv.org/pdf/2403.03985",
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "mila",
+      "name": "Mila – Quebec Artificial Intelligence Institute",
+      "sources": [
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "missouri-state",
+      "name": "Missouri State University",
+      "sources": [
+        "https://arxiv.org/html/2608.16988"
+      ]
+    },
+    {
+      "id": "mbzuai",
+      "name": "Mohamed bin Zayed University of Artificial Intelligence",
+      "sources": [
+        "https://arxiv.org/pdf/2508.10089"
+      ]
+    },
+    {
+      "id": "nyu",
+      "name": "New York University",
+      "sources": [
+        "https://arxiv.org/pdf/2403.03985",
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2309.08986",
+        "https://arxiv.org/html/2507.00134v1",
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2310.19406",
+        "https://ceur-ws.org/Vol-2964/article_201.pdf",
+        "https://arxiv.org/html/2608.16988",
+        "https://arxiv.org/html/2602.16775",
+        "https://arxiv.org/html/2410.10606v2",
+        "https://arxiv.org/pdf/2508.10089",
+        "https://arxiv.org/html/2504.08045v2",
+        "https://arxiv.org/html/2410.00965v2",
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "purple-mountain",
+      "name": "Purple Mountain Observatory",
+      "sources": [
+        "https://arxiv.org/pdf/2403.03985",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "queens",
+      "name": "Queen’s University",
+      "sources": [
+        "https://arxiv.org/pdf/2403.19464"
+      ]
+    },
+    {
+      "id": "rensselaer",
+      "name": "Rensselaer Polytechnic Institute",
+      "sources": [
+        "https://arxiv.org/html/2410.10606v2"
+      ]
+    },
+    {
+      "id": "sao-ras",
+      "name": "Special Astrophysical Observatory, Russian Academy of Sciences",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "swinburne",
+      "name": "Swinburne University of Technology",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "ohio-state",
+      "name": "The Ohio State University",
+      "sources": [
+        "https://arxiv.org/html/2507.00134v1"
+      ]
+    },
+    {
+      "id": "ucas",
+      "name": "University of Chinese Academy of Sciences",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "uiuc",
+      "name": "University of Illinois Urbana-Champaign",
+      "sources": [
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ]
+    },
+    {
+      "id": "umass-amherst",
+      "name": "University of Massachusetts Amherst",
+      "sources": [
+        "https://ceur-ws.org/Vol-2964/article_201.pdf"
+      ]
+    },
+    {
+      "id": "padova",
+      "name": "University of Padova",
+      "sources": [
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "University of Sydney",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "wisconsin-madison",
+      "name": "University of Wisconsin–Madison",
+      "sources": [
+        "https://arxiv.org/pdf/2406.05778"
+      ]
+    },
+    {
+      "id": "montreal",
+      "name": "Université de Montréal",
+      "sources": [
+        "https://arxiv.org/pdf/2403.19464",
+        "https://arxiv.org/html/2410.14775",
+        "https://arxiv.org/html/2311.15160",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    },
+    {
+      "id": "zhejiang",
+      "name": "Zhejiang University",
+      "sources": [
+        "https://arxiv.org/pdf/2403.03985",
+        "https://arxiv.org/html/2410.00965v2"
+      ]
+    }
+  ]
+}
